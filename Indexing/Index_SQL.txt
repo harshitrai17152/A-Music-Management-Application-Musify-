@@ -1,0 +1,129 @@
+*Queries for Searching Songs Based on Artist
+
+
+CREATE INDEX Artist_Index_Hindi
+ON Hindi_Songs (ArtistID);
+
+
+CREATE INDEX Artist_Index_English
+ON English_Songs (ArtistID);
+
+
+CREATE INDEX Artist_Index_Gujrati
+ON Gujrati_Songs (ArtistID);
+
+
+CREATE INDEX Artist_Index_Korean
+ON Korean_Songs (ArtistID);
+
+
+CREATE INDEX Artist_Index_Punjabi
+ON Punjabi_Songs (ArtistID);
+
+
+
+
+
+
+
+
+*Queries for Searching Songs Based on Genre
+
+
+CREATE INDEX Genre_Index_Hindi
+ON Hindi_Songs (GenreID);
+
+
+CREATE INDEX Genre_Index_English
+ON English_Songs (GenreID);
+
+
+CREATE INDEX Genre_Index_Gujrati
+ON Gujrati_Songs (GenreID);
+
+
+CREATE INDEX Genre_Index_Korean
+ON Korean_Songs (GenreID);
+
+
+CREATE INDEX Genre_Index_Punjabi
+ON Punjabi_Songs (GenreID);
+
+
+
+
+
+
+
+
+*Queries for Searching Songs Based on Mood
+
+
+CREATE INDEX Mood_Index_Hindi
+ON Hindi_Songs (MoodID);
+
+
+CREATE INDEX Mood_Index_English
+ON English_Songs (MoodID);
+
+CREATE INDEX Mood_Index_Gujrati
+ON Gujrati_Songs (MoodID);
+
+
+CREATE INDEX Mood_Index_Korean
+ON Korean_Songs (MoodID);
+
+
+CREATE INDEX Mood_Index_Punjabi
+ON Punjabi_Songs (MoodID);
+
+
+
+
+
+
+
+
+*Queries for Searching Songs Based on Films
+
+CREATE INDEX Film_Index_Hindi
+ON Hindi_Songs (FilmID);
+
+
+CREATE INDEX Film_Index_English
+ON English_Songs (FilmID);
+
+
+CREATE INDEX Film_Index_Gujrati
+ON Gujrati_Songs (FilmID);
+
+
+CREATE INDEX Film_Index_Korean
+ON Korean_Songs (FilmID);
+
+
+CREATE INDEX Film_Index_Punjabi
+ON Punjabi_Songs (FilmID);
+
+
+
+
+
+
+
+*Queries for Searching Sngs based on users favs
+
+
+CREATE INDEX User_Fav_Songs
+ON Favorite_Songs (UserID);
+
+
+
+
+
+
+*Queries for Searching Songs based on user's listened
+
+
+CREATE INDEX User_Lis_Songs
+ON Songs_Listened (UserID);
