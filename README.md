@@ -6,3 +6,5 @@ Our project involves developing a Music Management Application named â€˜Musifyâ€
 ![library](https://user-images.githubusercontent.com/44871522/80911228-c038bd00-8d52-11ea-9233-9b10c7a3ed8d.PNG)
 
 ![user](https://user-images.githubusercontent.com/44871522/80911241-cc247f00-8d52-11ea-8c7e-5801fb0b2e09.PNG)
+
+![lyrics](https://user-images.githubusercontent.com/44871522/80911601-efe8c480-8d54-11ea-885c-421f19a6b91f.PNG)
